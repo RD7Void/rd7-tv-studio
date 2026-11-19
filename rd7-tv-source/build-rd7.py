@@ -1,4 +1,4 @@
-"""Python 3 / build-rd7.py / rebuild RD7 TV 1.6.2 and the Studio resource."""
+"""Python 3 / build-rd7.py / rebuild RD7 TV 1.6.3 and the Studio resource."""
 import pathlib
 import shutil
 import sys

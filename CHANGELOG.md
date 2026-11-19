@@ -1,5 +1,10 @@
 # Histórico
 
+## 1.2.2
+
+- RD7 TV 1.6.3: relógio e data compactos no canto superior esquerdo.
+- Ajusta a posição das abas quando o relógio é mostrado para evitar sobreposição.
+
 ## 1.2.1
 
 - RD7 TV 1.6.2: mantém wallpaper e slideshow abaixo dos botões, seletor de foco e menus.

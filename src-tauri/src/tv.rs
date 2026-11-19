@@ -774,8 +774,8 @@ impl Backend {
             }
             "install_rd7" => self.install(include_bytes!("../resources/rd7-tv.ipk")),
             "download_info" => Ok(json!({
-                "name":"RD7 TV", "version":"1.6.2", "platform":"LG webOS",
-                "filename":"RD7-TV_1.6.2.ipk",
+                "name":"RD7 TV", "version":"1.6.3", "platform":"LG webOS",
+                "filename":"RD7-TV_1.6.3.ipk",
                 "size":include_bytes!("../resources/rd7-tv.ipk").len(),
                 "id":APP,
                 "studioVersion":env!("CARGO_PKG_VERSION"),
@@ -784,7 +784,7 @@ impl Backend {
             "download_rd7" => {
                 let selected = rfd::FileDialog::new()
                     .set_title("Salvar RD7 TV para LG webOS")
-                    .set_file_name("RD7-TV_1.6.2.ipk")
+                    .set_file_name("RD7-TV_1.6.3.ipk")
                     .add_filter("Pacote webOS", &["ipk"])
                     .save_file();
                 if let Some(mut path) = selected {
