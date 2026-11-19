@@ -1,5 +1,10 @@
 # Histórico
 
+## 1.2.1
+
+- RD7 TV 1.6.2: mantém wallpaper e slideshow abaixo dos botões, seletor de foco e menus.
+- Corrige a sobreposição do fundo personalizado sem apagar imagens ou configurações salvas.
+
 ## 1.2.0
 
 - Nova identidade RD7 TV no painel, executável e instalador NSIS.
