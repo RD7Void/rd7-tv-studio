@@ -1,0 +1,17 @@
+node_modules/
+dist/
+src-tauri/target/
+*.log
+__pycache__/
+*.pyc
+rd7-tv-source/out/
+rd7-tv-source/FreeMyTV-webos.ipk
+**/config.properties
+**/webos-apps.local.json
+**/webos-icons.local/
+.env
+.env.*
+*.pem
+*.key
+profiles.json
+known_hosts

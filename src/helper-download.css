@@ -1,0 +1,12 @@
+/* CSS / helper-download.css / RD7 TV Studio / Home Helper download card */
+.helper-download{display:grid;grid-template-columns:54px 1fr 245px;gap:20px;align-items:center;position:relative;padding:25px 28px 19px;margin-top:22px;background:radial-gradient(ellipse at 0% 30%,#2c615c22,transparent 65%),linear-gradient(140deg,#152834,#121e2d);border-color:#4e8d8c55}
+.helper-symbol{width:53px;height:56px;border-radius:15px;background:linear-gradient(140deg,#3c777255,#1c3948);border:1px solid #7ac6bc44;display:grid;place-items:center;box-shadow:inset 0 1px 0 #bdede31a,0 5px 15px #0002}
+.helper-symbol svg{width:26px;height:26px;color:#a3d6d0;stroke-width:1.5}
+.helper-description .download-kicker{color:#83b4bc;font-size:8px;margin-bottom:8px;letter-spacing:1.8px}
+.helper-description h3{font-size:19px;letter-spacing:-.45px;font-weight:600;margin:0 0 9px;color:#e5eff7}
+.helper-description p{max-width:470px;font-size:11px;line-height:1.8;color:#8da5bf;margin:0 0 12px}
+.helper-meta{display:flex;gap:9px;flex-wrap:wrap}.helper-meta span{font-size:8px;padding:4px 7px;border:1px solid #5b829333;border-radius:5px;background:#284a5722;color:#8eabbc}.helper-meta #helper-state{border:0;background:transparent;padding-left:0;color:#648a9e}.helper-meta #helper-state.ready{color:#8ed1b7}
+.helper-actions{display:flex;flex-direction:column;gap:8px}.helper-actions>.button{padding:10px 13px;font-size:10px}.helper-actions>.button.primary{background:linear-gradient(140deg,#a5d7d0,#7eaaa9);border-color:#bbdfda77;color:#132b36}.helper-actions>.button.primary:hover{background:linear-gradient(140deg,#b5e9e2,#91bfbd)}.helper-actions>.button.small{background:transparent;border-color:transparent;box-shadow:none;color:#87aaa9;padding:3px 8px;font-size:9px}
+.helper-footnote{grid-column:1/-1;border-top:1px solid #3f667344;padding-top:12px;font-size:9px;line-height:1.8;color:#6f93a5}.page.active .helper-download{animation:cardIn .5s cubic-bezier(.16,1,.3,1) both;animation-delay:.04s}
+@media(max-width:1150px){.helper-download{grid-template-columns:44px 1fr 215px;padding:23px;gap:15px}.helper-symbol{width:43px;height:49px}.helper-description p{font-size:10px}.helper-meta{gap:5px}.helper-description h3{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.page.active .helper-download{animation:none}}
